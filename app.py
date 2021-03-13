@@ -91,6 +91,8 @@ bot_utils.bot.add_command("/menu", "show options", handle_menu)
 bot_utils.bot.add_command('attachmentActions', '*', handle_cards)
 
 
+app = bot_utils.bot
+
 if __name__ == "__main__":
     # Run Bot
-    bot_utils.bot.run(host="0.0.0.0", port=9919, debug=True)
+    app.run(host="0.0.0.0", debug=True)

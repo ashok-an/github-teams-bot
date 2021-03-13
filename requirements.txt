@@ -8,6 +8,7 @@ Flask
 future
 idna
 itsdangerous
+gunicorn
 Jinja2
 MarkupSafe
 mypy-extensions
